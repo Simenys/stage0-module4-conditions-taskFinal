@@ -5,7 +5,7 @@ public class TriangleSidesValidator {
         double a = firstSide;
         double b = secondSide;
         double c = thirdSide;
-        if (a + b > c || a + c > b || b + c > a) {
+        if (a + b > c && a + c > b && b + c > a) {
             System.out.println("this is a valid triangle");
         } else {
             System.out.println("it's not a triangle");
